@@ -16,3 +16,5 @@ class WikipediaSpider(scrapy.Spider):
                 data[f'paragraph_{i}'] = text
 
         yield data
+
+    
